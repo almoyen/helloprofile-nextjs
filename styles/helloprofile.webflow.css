@@ -1,0 +1,953 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+}
+
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  padding: 0px 60px;
+  background-color: #fff;
+}
+
+.nav-grid {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-flow: column;
+  grid-auto-columns: -webkit-max-content;
+  grid-auto-columns: max-content;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  grid-template-areas: ". . . Area";
+  -ms-grid-columns: 2.75fr 0px -webkit-max-content 0px -webkit-max-content 0px -webkit-max-content;
+  -ms-grid-columns: 2.75fr 0px max-content 0px max-content 0px max-content;
+  grid-template-columns: 2.75fr -webkit-max-content -webkit-max-content -webkit-max-content;
+  grid-template-columns: 2.75fr max-content max-content max-content;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.nav-logo-link {
+  display: block;
+  height: 60px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.nav-logo {
+  width: auto;
+  height: 100%;
+  max-width: 50%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: 0% 50%;
+  object-position: 0% 50%;
+}
+
+.nav-link {
+  display: block;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 10px 0px;
+  color: #444;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.profile-main-section {
+  margin-top: 20px;
+  padding-right: 220px;
+  padding-left: 220px;
+  border-radius: 0px;
+  background-color: #e6e7e9;
+}
+
+.profile-container {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.cover-container {
+  border-radius: 0px;
+  background-color: #fff;
+}
+
+.cover {
+  min-height: 300px;
+  margin-bottom: 10px;
+}
+
+.div-block {
+  padding-top: 300px;
+}
+
+.image {
+  overflow: visible;
+  max-width: 50%;
+}
+
+.cover-image-conatainer {
+  border-radius: 12px;
+}
+
+.cover-title-container {
+  display: block;
+  overflow: visible;
+  margin-top: -40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.title-container {
+  margin-top: 60px;
+}
+
+.div-block-2 {
+  max-height: 10%;
+}
+
+.columns {
+  overflow: visible;
+  float: none;
+}
+
+.heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+}
+
+.profile-subtitle {
+  font-family: Montserrat, sans-serif;
+}
+
+.profile-subheading {
+  margin-top: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.widget-container {
+  margin-bottom: 20px;
+  padding-left: 0px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.bio-container {
+  padding-top: 0px;
+}
+
+.bio-cta-container {
+  float: none;
+  text-align: right;
+}
+
+.cta-text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.column {
+  text-align: left;
+}
+
+.contact-icons-container {
+  margin-bottom: 40px;
+}
+
+.icon-bg {
+  min-height: 50px;
+  min-width: 50px;
+  padding-left: 0px;
+  background-color: rgba(85, 85, 85, 0.1);
+  text-align: center;
+}
+
+.image-3 {
+  text-align: justify;
+}
+
+.bold-text {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.columns-2 {
+  margin-right: 0px;
+}
+
+.text {
+  font-family: Montserrat, sans-serif;
+}
+
+.icon-content-container {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.activity-item {
+  margin-bottom: 10px;
+}
+
+.activity-thumbnail-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.activity-text {
+  padding-top: 10px;
+}
+
+.image-4 {
+  padding-left: 10px;
+}
+
+.paragraph {
+  font-family: Montserrat, sans-serif;
+}
+
+.event-label {
+  max-height: 30px;
+  max-width: 100px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #ff2a45;
+  text-align: center;
+}
+
+.label-text-white {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cta-form-container {
+  margin-top: 10px;
+}
+
+.form {
+  display: block;
+}
+
+.text-field {
+  display: block;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-family: Montserrat, sans-serif;
+}
+
+.text-field-2 {
+  padding-right: 5px;
+  background-color: #f9f9f9;
+}
+
+.columns-3 {
+  max-width: 200%;
+}
+
+.text-field-3 {
+  padding-right: 0px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-family: Montserrat, sans-serif;
+}
+
+.div-block-3 {
+  padding-right: 20px;
+}
+
+.div-block-4 {
+  padding-right: 10px;
+}
+
+.form-textfield {
+  padding-right: 5px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cta-button {
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 6px;
+  background-color: #ff2a45;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.cta-thumb {
+  max-height: 100%;
+}
+
+.columns-4 {
+  margin-bottom: 20px;
+}
+
+.sticky-header-button {
+  margin-right: 10px;
+  border-radius: 9px;
+  background-color: #00c2ff;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.list-item {
+  display: block;
+}
+
+.image-5 {
+  max-width: 80%;
+}
+
+.booking-columns {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.booking-address-bar {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.booking-bar-text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+.book-meeting-button {
+  max-width: 100%;
+  min-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  background-color: #ff2a45;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.column-14 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.footer-container {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 0px;
+  background-color: #e6e7e9;
+  text-align: right;
+}
+
+.footer-credit {
+  padding-left: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.image-6 {
+  text-align: right;
+}
+
+.column-16 {
+  padding-right: 0px;
+}
+
+.column-17 {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
+.body {
+  background-color: #e6e7e9;
+}
+
+.radius-div {
+  margin-top: -10px;
+  border-radius: 13px;
+  background-color: #fff;
+  outline-color: #555;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+}
+
+.widget-content {
+  padding: 20px 20px 40px;
+}
+
+.footer-credit--cta {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.column-18 {
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.column-19 {
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 1440px) {
+  p {
+    font-size: 16px;
+  }
+
+  .profile-main-section {
+    margin-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+  }
+
+  .cover-container {
+    border-radius: 15px;
+  }
+
+  .cover {
+    border-radius: 9px;
+  }
+
+  .cover-title-container {
+    border-radius: 0px;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+
+  .profile-subtitle {
+    font-size: 20px;
+  }
+
+  .profile-subheading {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .widget-container {
+    margin-top: 60px;
+    border-radius: 50px;
+    background-color: transparent;
+  }
+
+  .cta-text {
+    font-size: 18px;
+  }
+
+  .column {
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .separator-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bold-text {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .icon-content-container {
+    padding-top: 25px;
+  }
+
+  .activity-content {
+    margin-top: 10px;
+  }
+
+  .activity-cta {
+    margin-top: 40px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .column-7 {
+    margin-top: 20px;
+  }
+
+  .booking-bar-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+  }
+
+  .footer-credit {
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .image-6 {
+    text-align: right;
+  }
+
+  .paragraph-3 {
+    font-size: 16px;
+  }
+
+  .paragraph-4 {
+    font-size: 16px;
+  }
+
+  .widget-content {
+    margin-top: -20px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #fff;
+  }
+
+  .footer-credit--cta {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  .column-18 {
+    padding-left: 5px;
+  }
+
+  .column-19 {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .profile-main-section {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .widget-container {
+    padding-bottom: 40px;
+  }
+
+  .activity-thumbnail-container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .paragraph {
+    font-size: 10px;
+  }
+
+  .paragraph-2 {
+    font-size: 10px;
+  }
+
+  .event-label {
+    max-height: 30px;
+    max-width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0px none transparent;
+    border-radius: 10px;
+    background-color: #ff2a45;
+    opacity: 1;
+    outline-color: #555;
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 3px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .label-text-white {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .event-date {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .cta-button {
+    min-width: 100px;
+  }
+
+  .columns-4 {
+    margin-bottom: 10px;
+  }
+
+  .booking-bar-text {
+    font-size: 10px;
+  }
+
+  .book-meeting-button {
+    min-width: 100%;
+  }
+
+  .footer-credit {
+    padding-left: 3px;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .footer-credit--cta {
+    font-size: 12px;
+  }
+
+  .column-19 {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sticky-nav {
+    position: relative;
+  }
+
+  .nav-grid {
+    text-align: center;
+  }
+
+  .profile-main-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .cover-title-container {
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  .widget-container {
+    padding-bottom: 20px;
+  }
+
+  .image-2 {
+    max-width: 40%;
+    text-align: left;
+  }
+
+  .column-2 {
+    text-align: center;
+  }
+
+  .columns-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .icon-content-container {
+    margin-top: 0px;
+    padding-top: 6px;
+    padding-right: 10px;
+  }
+
+  .column-3 {
+    margin-top: 0px;
+    padding-top: 5px;
+  }
+
+  .activity-content {
+    padding-top: 10px;
+  }
+
+  .div-block-3 {
+    padding-right: 0px;
+  }
+
+  .div-block-4 {
+    padding-right: 0px;
+  }
+
+  .cta-button {
+    min-width: 100%;
+  }
+
+  .cta-img-container {
+    padding-bottom: 10px;
+  }
+
+  .columns-4 {
+    margin-bottom: 0px;
+  }
+
+  .column-6 {
+    text-align: center;
+  }
+
+  .booking-bar-text {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .book-meeting-button {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sticky-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 0px;
+  }
+
+  .nav-grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    grid-auto-flow: row;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 100px;
+    grid-template-rows: 100px;
+  }
+
+  .nav-logo-link {
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .nav-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #c4c4c4;
+  }
+
+  .profile-main-section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .profile-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .cover-title-container {
+    margin-top: -30px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .widget-container {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .column {
+    text-align: right;
+  }
+
+  .image-2 {
+    max-width: 50%;
+  }
+
+  .column-2 {
+    text-align: center;
+  }
+
+  .activity-thumbnail-container {
+    padding-bottom: 20px;
+  }
+
+  .column-4 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  .div-block-3 {
+    padding-right: 0px;
+  }
+
+  .div-block-4 {
+    padding-right: 0px;
+  }
+
+  .cta-button {
+    min-width: 100%;
+  }
+
+  .column-7 {
+    margin-top: 10px;
+  }
+
+  .sticky-header-button {
+    min-width: 100px;
+    font-size: 8px;
+    line-height: 8px;
+  }
+
+  .image-5 {
+    max-width: 80%;
+  }
+
+  .social-icon-container {
+    margin-right: 5px;
+  }
+
+  .column-8 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-9 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-10 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-11 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-13 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .booking-address-bar {
+    margin-bottom: 5px;
+  }
+
+  .book-meeting-button {
+    min-width: 100%;
+  }
+
+  .column-15 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .footer-container {
+    text-align: left;
+  }
+
+  .footer-credit {
+    text-align: left;
+  }
+
+  .image-6 {
+    text-align: right;
+  }
+
+  .container {
+    padding-right: 10px;
+  }
+
+  .footer-credit--cta {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .column-20 {
+    text-align: right;
+  }
+
+  .columns-5 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+#w-node-_8b4d7ff6-5271-e40b-c8d4-81af155b31f8-2c858b1a {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_8b4d7ff6-5271-e40b-c8d4-81af155b31fe-2c858b1a {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_8b4d7ff6-5271-e40b-c8d4-81af155b31f8-2c858b1a {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}
