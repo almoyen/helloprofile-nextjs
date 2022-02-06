@@ -8,7 +8,7 @@ export default function MetaTags() {
       <meta name="title" content="Kelvin Chikezie on HelloProfile" />
       <meta
         name="description"
-        content="Find, connect and save Kelvin Chikezie's Profile on HelloProfile."
+        content="Find, connect, save and share Kelvin Chikezie's Profile on HelloProfile."
       />
 
       <meta property="og:type" content="website" />
