@@ -1,14 +1,14 @@
 import React from 'react';
-import Acivities from "../components/Acivities";
-import Booking from "../components/Booking";
-import CallToAction from "../components/CallToAction";
-import Contact from "../components/Contact";
-import CoverBio from "../components/CoverBio";
-import Events from "../components/Events";
-import Footer from "../components/Footer";
-import Socials from "../components/Socials";
-import StickyNav from "../components/StickyNav";
-import MetaTags from '../components/MetaTags';
+import Acivities from "../components/ProfilePage/Acivities";
+import Booking from "../components/ProfilePage/Booking";
+import CallToAction from "../components/ProfilePage/CallToAction";
+import Contact from "../components/ProfilePage/Contact";
+import CoverBio from "../components/ProfilePage/CoverBio";
+import Events from "../components/ProfilePage/Events";
+import Footer from "../components/ProfilePage/Footer";
+import Socials from "../components/ProfilePage/Socials";
+import StickyNav from "../components/ProfilePage/StickyNav";
+import MetaTags from '../components/ProfilePage/MetaTags';
 
 export default function kelvin() {
   return <div className="body">
