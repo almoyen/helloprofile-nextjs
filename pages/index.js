@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ComingSoon from "../components/LandingPage/ComingSoon";
 import Footer from "../components/LandingPage/Footer";
 import Header from "../components/LandingPage/Header";
 import Hero from "../components/LandingPage/Hero";
@@ -17,6 +18,7 @@ export default function Home() {
           <Hero />
           <ThreeStep />
           <WhyUse />
+          <ComingSoon/>
           <Footer />
         </div>
       </div>
