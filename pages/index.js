@@ -1,12 +1,26 @@
 import Head from "next/head";
+import Footer from "../components/LandingPage/Footer";
+import Header from "../components/LandingPage/Header";
+import Hero from "../components/LandingPage/Hero";
+import ThreeStep from "../components/LandingPage/ThreeStep";
+import WhyUse from "../components/LandingPage/WhyUse";
 
 export default function Home() {
   return (
-    <div style = {{alignItems: "center"}}>
+    <div>
       <Head>
         <title>HelloProfile: Networking Redefined!</title>
       </Head>
-      <h1>HelloProfile is currently under development.</h1>
+      <div>
+        <Header />
+        <div className="main-container">
+          <Hero />
+          <ThreeStep />
+          <WhyUse />
+          <WhyUse />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
