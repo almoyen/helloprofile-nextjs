@@ -49,7 +49,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333;
@@ -318,7 +318,6 @@ input[type='reset'] {
 label {
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
 }
 .w-input,
 .w-select {
@@ -331,8 +330,8 @@ label {
   line-height: 1.428571429;
   color: #333333;
   vertical-align: middle;
-  background-color: #ffffff;
   border: 1px solid #cccccc;
+  font-family: Montserrat, sans-serif;;
 }
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
@@ -1804,4 +1803,10 @@ textarea.w-select {
 }
 .w-condition-invisible {
   display: none !important;
+}
+.wf-layout-layout {
+  display: grid !important;
+}
+.wf-layout-cell {
+  display: flex !important;
 }

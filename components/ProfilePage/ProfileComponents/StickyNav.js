@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function StickyNav() {
+export default function StickyNav(props) {
   return (
     <header id="nav" className="sticky-nav">
       <nav className="container w-container">
@@ -18,18 +18,11 @@ export default function StickyNav() {
             id="w-node-_8b4d7ff6-5271-e40b-c8d4-81af155b31fe-2c858b1a"
             className="list-item"
           >
-            <a href="#" className="sticky-header-button w-button">
+            <button className="sticky-header-button w-button" onClick={()=> props.setSaveProfileOpen(true)}>
               Save Profile
-            </a>
+            </button>
           </li>
-          <li>
-            <img
-              src="images/cross-icon.svg"
-              loading="lazy"
-              alt=""
-              className="image-5"
-            />
-          </li>
+         
         </ul>
       </nav>
     </header>

@@ -50,15 +50,8 @@ export default function CoverBio() {
             value for the startup ecosystem in Finland through our monthly
             fireside chat events, partnerships and other startup activities.
           </p>
-          <div className="bio-cta-container">
-            <div className="w-row">
-              <div className="w-col w-col-10 w-col-small-10 w-col-tiny-10">
-                <div className="cta-text">View Portfolio</div>
-              </div>
-              <div className="column w-col w-col-2 w-col-small-2 w-col-tiny-2">
-                <img src="images/Vector.svg" loading="lazy" alt="" />
-              </div>
-            </div>
+          <div className="view-portfolio">
+            <div className="cta-text">View Portfolio</div><img src="images/Vector.svg" loading="lazy" alt="" class="image-11"/>
           </div>
         </div>
       </div>
