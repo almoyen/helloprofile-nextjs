@@ -51,7 +51,7 @@ export default function CoverBio() {
             fireside chat events, partnerships and other startup activities.
           </p>
           <div className="view-portfolio">
-            <div className="cta-text">View Portfolio</div><img src="images/Vector.svg" loading="lazy" alt="" class="image-11"/>
+            <div className="cta-text">View Portfolio</div><img src="images/Vector.svg" loading="lazy" alt="" className="image-11"/>
           </div>
         </div>
       </div>
