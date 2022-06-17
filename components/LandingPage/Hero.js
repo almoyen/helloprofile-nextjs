@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Hero() {
+export default function Hero(props) {
   return (
     <div className="hero-container">
       <div className="columns-6 w-row">
@@ -25,7 +25,7 @@ export default function Hero() {
                     <div className="request-invite-button">
                       <div className="w-row">
                         <div className="w-col w-col-10 w-col-small-10 w-col-tiny-10">
-                          <div className="button-text-white">
+                          <div style = {{cursor: "pointer"}} className="button-text-white" onClick={()=> props.setOpenDialog(true)}>
                             Request Invite
                           </div>
                         </div>

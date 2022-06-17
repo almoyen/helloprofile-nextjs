@@ -8,7 +8,7 @@ const handleSubmit = () => {
         alert("You must accept our terms to continue");
         setTermsViolation(true)
     }
-    else {
+    if (termsAgreed && !termsViolation) {
         props.setSaveProfileSuccess(true);
         setTermsViolation(false)
         props.openSaveProfileForm(false);
@@ -18,9 +18,10 @@ const handleSubmit = () => {
 const handleTermsCheckbox = () => {
     if (termsAgreed){
         setTermsAgreed(false)
-    }
+        setTermsViolation(false);
 
-    if (!termsAgreed && termsViolation) {
+    }
+    if (!termsAgreed) {
         setTermsAgreed(true);
         setTermsViolation(false);
     }
