@@ -13,19 +13,24 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>HelloProfile: Networking Redefined!</title>
+        <title>HelloProfile - No Code Profile Page Builder</title>
       </Head>
       <div>
         <div className="body-2">
-        <div className="main-container"> 
-        <Header setOpenDialog = {setOpenDialog}/>
-          <Hero setOpenDialog = {setOpenDialog} />
-          {openDialog ? <SignUpDialog setOpenDialog = {setOpenDialog} openDialog = {openDialog}/> : null}
-          <ThreeStep />
-          <WhyUse />
-          <ComingSoon/>
-          <Footer />
-        </div>
+          <div className="main-container">
+            <Header setOpenDialog={setOpenDialog} />
+            <Hero setOpenDialog={setOpenDialog} />
+            {openDialog ? (
+              <SignUpDialog
+                setOpenDialog={setOpenDialog}
+                openDialog={openDialog}
+              />
+            ) : null}
+            <ThreeStep />
+            <WhyUse />
+            <ComingSoon />
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
