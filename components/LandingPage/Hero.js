@@ -20,29 +20,25 @@ export default function Hero(props) {
             </div>
             <div className="hero-cta-container">
               <div className="w-row">
-                <div className="w-col w-col-6 w-col-small-6 w-col-tiny-6">
-                  <div className="request-button-container">
+                <div className="w-col w-col-6 w-col-small-6 w-col-tiny-tiny-stack">
+                  <div className="request-button-container" onClick={()=> props.setOpenDialog(true)} style = {{cursor: "pointer"}} >
                     <div className="request-invite-button">
-                      <div className="w-row">
-                        <div className="w-col w-col-10 w-col-small-10 w-col-tiny-10">
-                          <div style = {{cursor: "pointer"}} className="button-text-white" onClick={()=> props.setOpenDialog(true)}>
-                            Request Invite
-                          </div>
-                        </div>
-                        <div className="w-col w-col-2 w-col-small-2 w-col-tiny-2">
-                          <div className="request-invite-icon-container">
+                     <div className="button-text-white" >
+                            Request Invite 
+                            </div>
+                            <div className="request-invite-icon-container">
                             <img
                               src="images/arrow-right-circle.svg"
                               loading="lazy"
                               alt=""
+                              className="image-14"
                             />
-                          </div>
-                        </div>
-                      </div>
                     </div>
+                        </div>
+                          
                   </div>
                 </div>
-                <div className="w-col w-col-6 w-col-small-6 w-col-tiny-6">
+                <div className="w-col w-col-6 w-col-small-6 w-col-tiny-tiny-stack">
                   <div className="about-helloprofile-button">
                     <div className="about-hello-profile-button">
                       About HelloProfile
@@ -53,14 +49,10 @@ export default function Hero(props) {
             </div>
           </div>
           <div className="hero-footer-container">
-            <div className="w-row">
-              <div className="w-col w-col-2 w-col-small-2 w-col-tiny-2">
                 <div className="footer-icon-container">
                   <img src="images/Group-7265.svg" loading="lazy" alt="" />
                 </div>
-              </div>
-              <div className="w-col w-col-10 w-col-small-10 w-col-tiny-10">
-                <div className="hero-footer-text-container">
+                                <div className="hero-footer-text-container">
                   <div className="text-footer-hero">
                     Join our{" "}
                     <strong className="bold-text-2">
@@ -71,9 +63,7 @@ export default function Hero(props) {
                     <strong className="bold-text-3">HelloProfile</strong> for
                     FREE!
                   </div>
-                </div>
-              </div>
-            </div>
+                </div>           
           </div>
         </div>
         <div className="w-col w-col-6 w-col-small-small-stack">

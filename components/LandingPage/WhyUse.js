@@ -7,7 +7,7 @@ export default function WhyUse() {
         <h1 className="why-use-header">Why use HelloProfile</h1>
       </div>
       <div className="why-use-main-container">
-        <div className="w-row">
+        <div className="columns-15 w-row">
           <div className="w-col w-col-5">
             <div className="why-use-image-container">
               <img src="images/tablet-image.svg" loading="lazy" alt="" />

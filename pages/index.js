@@ -16,14 +16,16 @@ export default function Home() {
         <title>HelloProfile: Networking Redefined!</title>
       </Head>
       <div>
-        <Header />
-        <div className="main-container">
+        <div className="body-2">
+        <div className="main-container"> 
+        <Header setOpenDialog = {setOpenDialog}/>
           <Hero setOpenDialog = {setOpenDialog} />
           {openDialog ? <SignUpDialog setOpenDialog = {setOpenDialog} openDialog = {openDialog}/> : null}
           <ThreeStep />
           <WhyUse />
           <ComingSoon/>
           <Footer />
+        </div>
         </div>
       </div>
     </div>
