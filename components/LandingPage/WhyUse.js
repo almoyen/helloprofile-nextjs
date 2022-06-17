@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyUse() {
   return (
-    <div className="why-use-container">
+    <div id = "about" className="why-use-container">
       <div className="why-use-heading-container">
         <h1 className="why-use-header">Why use HelloProfile</h1>
       </div>

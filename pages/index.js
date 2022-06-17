@@ -9,7 +9,7 @@ import WhyUse from "../components/LandingPage/WhyUse";
 import React from 'react'
 
 export default function Home() {
-  const [openDialog, setOpenDialog] = React.useState(true)
+  const [openDialog, setOpenDialog] = React.useState(false)
   return (
     <div>
       <Head>

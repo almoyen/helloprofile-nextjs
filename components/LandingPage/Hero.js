@@ -39,11 +39,13 @@ export default function Hero(props) {
                   </div>
                 </div>
                 <div className="w-col w-col-6 w-col-small-6 w-col-tiny-tiny-stack">
+                <a href="#about" className="about-hello-profile-button">
                   <div className="about-helloprofile-button">
                     <div className="about-hello-profile-button">
                       About HelloProfile
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
             </div>
