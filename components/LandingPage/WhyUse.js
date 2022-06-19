@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyUse() {
   return (
-    <div id = "about" className="why-use-container">
+    <div id="about" className="why-use-container">
       <div className="why-use-heading-container">
         <h1 className="why-use-header">Why use HelloProfile</h1>
       </div>
@@ -10,7 +10,7 @@ export default function WhyUse() {
         <div className="columns-15 w-row">
           <div className="w-col w-col-5">
             <div className="why-use-image-container">
-              <img src="images/tablet-image.svg" loading="lazy" alt="" />
+              <img src="images/tablet.png" loading="lazy" alt="" />
             </div>
           </div>
           <div className="w-col w-col-7">
