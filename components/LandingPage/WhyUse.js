@@ -200,7 +200,7 @@ export default function WhyUse() {
           <div className="w-col w-col-6">
             <div className="why-use-image-container-stretched">
               <img
-                src="images/laptop-mockup-full.svg"
+                src="images/Laptop.png"
                 loading="lazy"
                 alt=""
                 className="image-7"
