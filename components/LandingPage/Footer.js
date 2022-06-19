@@ -32,24 +32,33 @@ export default function Footer() {
             <div className="social-icons">
               <div className="w-row">
                 <div className="w-col w-col-4 w-col-small-4 w-col-tiny-4">
-                  <div className="social-icon-container-landing">
-                    <img
-                      src="images/instagram-icon.svg"
-                      loading="lazy"
-                      alt=""
-                    />
-                  </div>
+                  <a href="https://instagram.com">
+                    <div className="social-icon-container-landing">
+                      <img
+                        src="images/instagram-icon.svg"
+                        loading="lazy"
+                        alt=""
+                      />
+                    </div>
+                  </a>
                 </div>
                 <div className="w-col w-col-4 w-col-small-4 w-col-tiny-4">
-                  <div className="social-icon-container-landing">
-                    <img src="images/facebook-icon.svg" loading="lazy" alt="" />
-                  </div>
+                  <a href="https://facebook.com">
+                    <div className="social-icon-container-landing">
+                      <img
+                        src="images/facebook-icon.svg"
+                        loading="lazy"
+                        alt=""
+                      />
+                    </div>
+                  </a>
                 </div>
+                {/* To be replaced with Linkedin Later
                 <div className="w-col w-col-4 w-col-small-4 w-col-tiny-4">
                   <div className="social-icon-container-landing">
                     <img src="images/twitter-icon.svg" loading="lazy" alt="" />
                   </div>
-                </div>
+  </div>*/}
               </div>
             </div>
           </div>

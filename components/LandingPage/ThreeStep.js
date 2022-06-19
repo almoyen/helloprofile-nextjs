@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ThreeStep() {
   return (
-    <div className="three-step-container" style={{ paddingBottom: "60px" }}>
+    <div className="three-step-container">
       <div className="w-row">
         <div className="w-col w-col-4">
           <div className="step-item">
