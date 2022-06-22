@@ -71,7 +71,7 @@ export default function Hero(props) {
         <div className="w-col w-col-6 w-col-small-small-stack">
           <div className="hero-image-container">
             <img
-              src="images/hero-picture-1.svg"
+              src="images/hero-picture.png"
               loading="lazy"
               alt=""
               className="image-8"

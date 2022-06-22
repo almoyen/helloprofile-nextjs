@@ -11,9 +11,9 @@ export default function Footer() {
             </div>
             <div className="footer-text-container">
               <div className="landing-footer-text">
-                HelloProfile is a no-code website builder profile page builder
-                that allows you to design, launch and manage your personal, work
-                and portfolio profile pages in minutes
+                HelloProfile is a no-code <s>website builder</s> profile page
+                builder that allows you to design, launch and manage your
+                personal, work and portfolio profile pages in minutes
               </div>
               <div className="landing-copyright-text">
                 Copyright ©&nbsp;HelloProfile. All rights reserved.
