@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="social-icons">
               <div className="w-row">
                 <div className="w-col w-col-4 w-col-small-4 w-col-tiny-4">
-                  <a href="https://instagram.com">
+                  <a href="https://instagram.com/helloprofile.io">
                     <div className="social-icon-container-landing">
                       <img
                         src="images/instagram-icon.svg"
@@ -43,7 +43,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className="w-col w-col-4 w-col-small-4 w-col-tiny-4">
-                  <a href="https://facebook.com">
+                  <a href="https://www.facebook.com/HelloProfile.io">
                     <div className="social-icon-container-landing">
                       <img
                         src="images/facebook-icon.svg"

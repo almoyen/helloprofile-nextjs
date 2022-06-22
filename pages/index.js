@@ -13,7 +13,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>HelloProfile - No Code Profile Page Builder</title>
+        <title>HelloProfile | No-code Profile Page Builder</title>
+        <meta
+          name="description"
+          content="No-code profile page builder for individuals, creators and businesses"
+        />
       </Head>
       <div>
         <div className="body-2">
